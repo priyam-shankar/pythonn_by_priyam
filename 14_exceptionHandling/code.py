@@ -1,0 +1,12 @@
+try:
+    x = int(input("enter x :"))
+    ans = 10 / x
+    
+except ZeroDivisionError:
+    print(f"Divide by 0 is not allowed")
+    
+except ValueError:
+    print(f"invalid literal for int()")
+
+else:
+    print(f"ans = {ans}")
